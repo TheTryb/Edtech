@@ -429,7 +429,7 @@ footer p{
 }
 
 
-@media (max-width:768px){
+@media (max-width:480px){
 .hero h1{
   margin-top: 300px;
     font-size: 2.5rem;
@@ -441,13 +441,24 @@ footer p{
     text-align: center;
   }
   .explorebtn{
-margin-left: 280px;
+margin-left: 150px;
 height: 50px;
 width: 160px;
   }
 
+  #explore{
+    background: url(./explorebg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    
+  }
+
+  
   .hero img {
-    max-width: 600px;
+    max-width: 450px;
     height: auto;
     margin-bottom: 100px;
   }
@@ -509,6 +520,10 @@ width: 160px;
     
     text-align: left;
     /* margin-left: 10px; */
+
+  }
+  footer{
+    margin-bottom: -50px;
   }
 }
 
